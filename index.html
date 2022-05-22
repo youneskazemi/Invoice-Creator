@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invoce Creator</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Invoice creator</h1>
+        <small>Thanks for choosing GoodCorp, LLC!</small>
+      </div>
+      <div class="body">
+        <div class="body-container">
+          <div class="row">
+            <button id="btn-el-1">Wash Car: $10</button>
+            <button id="btn-el-2">Mow Lawn: $20</button>
+            <button id="btn-el-3">Pull Weed: $30</button>
+          </div>
+          <div class="basket">
+            <div class="task">
+              <h5>TASK</h5>
+              <ul id="task-el"></ul>
+            </div>
+            <div class="total">
+              <h5>TOTAL</h5>
+              <ul id="total-el"></ul>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="footer">
+            <div class="notes">
+              <h5>NOTES</h5>
+              <ul>
+                <li><small>We accept cash, credit card, or PayPal</small></li>
+              </ul>
+            </div>
+            <div class="total_amount">
+              <h5>TOTAL AMOUNT</h5>
+              <span id="total-price-el" class="total_price">$0</span>
+            </div>
+          </div>
+          <button id="submit-el">
+            <svg
+              width="17"
+              height="12"
+              viewBox="0 0 17 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5 0.5L14.5001 0.5C14.8829 0.49993 15.2513 0.646224 15.5297 0.90892C15.7305 1.0984 15.8737 1.33809 15.9462 1.60038L8.5 5.323L1.05384 1.60038C1.12634 1.33809 1.26945 1.0984 1.47029 0.90892C1.74874 0.646224 2.1171 0.49993 2.49991 0.5H2.5H14.5ZM8.27639 8.56521L8.5 8.67702L8.72361 8.56521L16 4.92702V10C16 10.3978 15.842 10.7794 15.5607 11.0607C15.2794 11.342 14.8978 11.5 14.5 11.5H2.5C2.10218 11.5 1.72064 11.342 1.43934 11.0607L1.08959 11.4104L1.43934 11.0607C1.15804 10.7794 1 10.3978 1 10V4.92702L8.27639 8.56521Z"
+                fill="white"
+                stroke="white"
+              />
+            </svg>
+            <span>Send invoice</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
